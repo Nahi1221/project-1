@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Food Menu</title>
+    <link rel="stylesheet" href="stt.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="name">Mini Mar Cafe</h1>
+        <h3 id="Cafe">Cafe Food Menu</h3>
+    </header>
+
+    <section class="menu">
+        <h2>Food Items</h2>
+        <div class="menu-item1">
+            <h3>beyaynet</h3>
+            <p>virity of food in one plate</p>
+            <p>Price: 80 birr</p>
+        </div>
+
+        <div class="menu-item2">
+            <h3>firfer</h3>
+            <p>spicy made from injera and very delicious</p>
+            <p>Price: 60 birr</p>
+        </div>
+
+        <div class="menu-item3">
+            <h3>pasta</h3>
+            <p>italy pasta with secret ingredents and spicy delicious test</p>
+            <p>Price: 70 birr</p>
+        </div>
+    </section>
+
+    <section class="order">
+        <h2>Order Now</h2>
+        <form id="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="food-item">Food Item:</label>
+            <select id="food-item" name="food-item" required>
+                <option value="">Select an item</option>
+                <option value="french-fries">French Fries</option>
+                <option value="cheese-burger">Cheese Burger</option>
+                <option value="garlic-pizza">Garlic Pizza</option>
+            </select>
+
+            <input type="submit" value="Order">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2022 Cafe Food Menu. All rights reserved.</br>
+        adress: gulit, zenebork,adiss ababa</br>
+        telephone: 0910808660 </br></p>
+    </footer>
+</body>
+</html>                 
